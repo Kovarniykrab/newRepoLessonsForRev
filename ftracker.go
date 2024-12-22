@@ -136,3 +136,5 @@ func SwimmingSpentCalories(lengthPool, countPool int, duration, weight float64) 
 	// ваш код здесь
 	return (swimmingMeanSpeed(lengthPool, countPool, duration) + swimmingCaloriesMeanSpeedShift) * swimmingCaloriesWeightMultiplier * weight * duration
 }
+
+// теперь то заработает????
